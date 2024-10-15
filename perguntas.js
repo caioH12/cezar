@@ -67,7 +67,8 @@ criaCartao(
     'musica',
     'qual a duração de uma seminima?',
     '1 tempo'
-)criaCartao(
+)
+criaCartao(
     'musica',
     'qual a duração de uma colcheia?',
     '1/2 tempo'
