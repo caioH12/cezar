@@ -4,14 +4,22 @@ function criaCartao(categoria, pergunta, resposta){
     cartao.className = 'cartao';
     cartao.innerHTML = `
     <div class="conteudo-cartao">
-    <h3>${categoria}$</h3>
-    <div class="conteudo-cartao">
-        <p>${pergunta}$</p>
+    <h3>${categoria}</h3>
+    <div class="pergunta-cartao">
+        <p>${pergunta}</p>
     </div>
     <div class="reposta-cartao">
-        <p>${resposta}$</p>
+        <p>${resposta}</p>
     </div>
 </div>
     `
-    container.appendChild(cartao)
+let repostaEstaVisivel = false;
+
+function viraCartao(){
+    let repostaEstaViivel = !repostaEstaVisivel
+    cartao.classList.toggle('active', repostaEstaViivel );
+}
+cartao.addEventListener('click',viraCartao);
+
+    container.appendChild(cartao);
 }
