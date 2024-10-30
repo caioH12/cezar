@@ -16,7 +16,7 @@ function criaCartao(categoria, pergunta, resposta){
 let repostaEstaVisivel = false;
 
 function viraCartao(){
-    let repostaEstaViivel = !repostaEstaVisivel
+    let repostaEstaViivel = !repostaEstaVisivel;
     cartao.classList.toggle('active', repostaEstaViivel );
 }
 cartao.addEventListener('click',viraCartao);
