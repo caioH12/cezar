@@ -11,7 +11,7 @@ body{
     background-color: var(--fundo);
 }
 footer{
-    position: fixed;
+    position: inherit;
     bottom: 0;
     background-color: var(--preto);
     color: var(--branco);
