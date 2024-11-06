@@ -37,8 +37,13 @@ footer{
     background-color: var(--cartao-frente);
     color: var(--branco);
     box-shadow: 8px 8px 25px var(--preto);
+    cursor: pointer;
 }
 .resposta-cartao{
     padding: 40px;
     background-color: var(--cartao-verso);
+}
+.conteudo-cartao:hover{
+transform: scale(1.04);
+
 }
