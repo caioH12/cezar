@@ -34,9 +34,9 @@ criaCartao(
     'compositor italiano'
 )
 criaCartao(
-    'enem',
-    'o que cai no enem?',
-    'lagrimas'
+    'musica',
+    'quantos sustenidos tem a escala de DO# Maior?',
+    '7 sustenidos'
 )
 criaCartao(
     'quimica',
